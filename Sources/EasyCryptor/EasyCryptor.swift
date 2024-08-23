@@ -3,7 +3,7 @@ import Foundation
 public struct EazyCryptor {
     private let check = "end"
     private var characters = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    private let separator = "~~~~~"
+    private let separator = "~"
 
     public init() {}
 
